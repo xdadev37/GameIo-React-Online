@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense, lazy } from 'react'
+import './pages/i18n'
+import EffectHook from './pages/useEffect'
+const MainPage = lazy(() => import('./pages/Main/index'))
+const Navbar = lazy(() => import('./pages/Navbar/Navbar'))
+const Guide = lazy(() => import('./pages/Guide/index'))
+const Game = lazy(() => import('./pages/GameRunPage/GameRunPage'))
+const About = lazy(() => import('./pages/About/About'))
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  EffectHook()
+
+  return (<Suspense fallback={<p>LoAdInG ...</p>}>
+    <Navbar />
+    <MainPage />
+    <Guide />
+    <Game />
+    <About />
+  </Suspense>);
 }
 
 export default App;

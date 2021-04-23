@@ -1,0 +1,51 @@
+{
+    "mainPage": "Woe Voe Game",
+    "home": "Home",
+    "navbar": {
+        "guide": "Guide",
+        "game": "Game",
+        "about": "About Us",
+        "login": "Login",
+        "signUp": "SignUp",
+        "logout": "Logout"
+    },
+    "gamePage": {
+        "topic": "Online",
+        "textOnline": "An online game is a video game that is either partially <br /> or primarily played through the Internet <br /> or any other computer network available.",
+        "topic2": "Multiplayer",
+        "textMulti": "A multiplayer video game is a video game in which more than <br /> one person can play in the same game environment <br /> at the same time, either locally (e.g. New Super Mario Bros. Wii) <br /> or online over the internet (e.g. World of Warcraft, Call Of Duty).."
+    },
+    "guidePage": {
+        "topic": "Guide",
+        "text": "A multiplayer video game is a video game in which more than one person can play in the same game environment at the same time, either locally (e.g. New Super Mario Bros. Wii) or online over the internet (e.g. World of Warcraft, Call Of Duty). Multiplayer games usually require players to share the resources of a single game system or use networking technology to play together over a greater distance; players may compete against one or more human contestants, work cooperatively with a human partner to achieve a common goal, or supervise other players' activity. Multiplayer games allow players interaction with other individuals in partnership, competition, or rivalry, providing them with social communication absent from single-player games."
+    },
+    "signUp": {
+        "topic": "Signup Form",
+        "fname": " First Name :",
+        "lname": "Last Name :",
+        "birthday": "Birthday",
+        "year": "Year :",
+        "month": "Month :",
+        "day": "Day :",
+        "phoneNo": "Phone No. :",
+        "address": "Address :",
+        "email": "E-mail :",
+        "password": "Password :",
+        "checkbox": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo deserunt ab dignissimos repellendus nulla expedita, debitis non nemo vitae praesentium. Nobis quod rerum illo debitis et quae, asperiores ratione consectetur.",
+        "submit": "Submit"
+    },
+    "loginPage": {
+        "email": "E-mail :",
+        "password": "Password :",
+        "login": "Login"
+    },
+    "aboutPage": {
+        "callInfo": "Call info",
+        "callNo": "Call no. : 021XXXXXXXX",
+        "address": "Address : John Doe St.",
+        "aboutUs": "About us",
+        "JDCo": "John Doe Co.",
+        "Entertainment": "Entertainment",
+        "Tehran": "Tehran"
+    }
+}
