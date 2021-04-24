@@ -47,7 +47,7 @@ const Navbar = () => {
         <nav className={styles.rightNav} >
             <button onClick={() => { changeLanguage('en'); document.getElementsByTagName('html')[0].setAttribute('style', 'direction: ltr;') }}>EN</button>
             <button onClick={() => { changeLanguage('fa'); document.getElementsByTagName('html')[0].setAttribute('style', 'direction: rtl;') }}>FA</button>
-            {loginButton ? <Login setLoggedIn={setLoggedIn} setLoginButton={setLoginButton} /> : <>{loginButtonText}</>}
+            {loginButton ? <Login setLoggedIn={setLoggedIn} setLoginButton={setLoginButton} /> : loginButtonText}
         </nav >
     </div >);
 }

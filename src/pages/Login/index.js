@@ -36,10 +36,10 @@ const Login = props => {
         <form>
             <span onClick={() => { props.setLoginButton(false); }}></span>
             <label htmlFor="email">{t('loginPage.email')}
-                <input type="email" onChange={handleEmail} />
+                <input type="email" onChange={handleEmail} placeholder='eve.holt@reqres.in' />
             </label>
             <label htmlFor="password">{t('loginPage.password')}
-                <input type="password" onChange={handlePassword} />
+                <input type="password" onChange={handlePassword} placeholder='cityslicka' />
             </label>
             <button onClick={(e) => { e.preventDefault(); submit() }}>{t('loginPage.login')}</button>
         </form>
